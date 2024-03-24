@@ -1,0 +1,5 @@
+title: MAGI
+description: Multimodal Audio and Gesture, Integrated
+show_downloads: False
+plugins:
+- jekyll-remote-theme
