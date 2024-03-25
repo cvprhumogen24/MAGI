@@ -345,7 +345,7 @@ Currently loaded: <span id="playing-gesture-only" style="font-weight: bold;" > M
           <img src="images/play_button_black.png" height=40 style="cursor: pointer;" onclick="play_video('stimuli/gesture-only/MAGI-T_1.mp4', 'MAGI-T 1')"/>
       </td>
       <td>
-          <img src="images/play_button_black.png" height=40 style="cursor: pointer;" onclick="play_video('stimuli/gesture-only/MAGI-FT_1', 'MAGI-FT 1')"/>
+          <img src="images/play_button_black.png" height=40 style="cursor: pointer;" onclick="play_video('stimuli/gesture-only/MAGI-FT_1.mp4', 'MAGI-FT 1')"/>
     </td>
     </tr>
         <tr>
