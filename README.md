@@ -416,13 +416,13 @@ Currently loaded: <span id="playing-gesture-only" style="font-weight: bold;" > M
 <tbody>
   <tr>
       <td> 
-          <video id="speech-and-gesture-video-matched" class="video-js" controls width="500" height="282">
-              <source id="speech-and-gesture-video-matched-source" src="stimuli/speech-and-gesture/MAT_50_C4_3_eval_0150_matched.mp4" type='video/mp4' />
+          <video id="speech-and-gesture-video-matched" class="video-js" controls width="320" height="180">
+              <source id="speech-and-gesture-video-matched-source" src="stimuli/speech-and-gesture/MAGI-FT_1_matched.mp4" type='video/mp4' />
           </video>
       </td>
       <td>
-        <video id="speech-and-gesture-video-mismatched" class="video-js" controls width="500" height="282">
-              <source id="speech-and-gesture-video-mismatched-source" src="stimuli/speech-and-gesture/MAT_50_C4_3_eval_0150_mismatched.mp4" type='video/mp4' />
+        <video id="speech-and-gesture-video-mismatched" class="video-js" controls width="320" height="180">
+              <source id="speech-and-gesture-video-mismatched-source" src="stimuli/speech-and-gesture/MAGI-FT_1_mismatched.mp4" type='video/mp4' />
           </video>
       </td>
   </tr>
@@ -430,11 +430,11 @@ Currently loaded: <span id="playing-gesture-only" style="font-weight: bold;" > M
 </table>
 <h6> *Note: Matched versus mismatched stimuli were not labelled in the study and presented in random order. </h6>
 
-Currently loaded: <span id="playing-speech-and-gesture-span" style="font-weight: bold;" > MA-50 1</span>
+Currently loaded: <span id="playing-speech-and-gesture-span" style="font-weight: bold;" > MAGI-FT 1</span>
 
 <blockquote style="height: 100px">
   <p id="speech-and-gesture-transcription">
-    Yeah and then obviously there, there's certain choirs that come down to the church. There's a woman called, I can't remember her name. But she has an incredible voice. Like an amazing voice.
+    and they finished they they cleaned up the wound and stuff I stood up and I just collapsed onto the ground and fainted because I was completely drained of all my energy of of everything like it was absolutely. Oh, so so bad.
   </p>
 </blockquote>
 
