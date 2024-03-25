@@ -267,14 +267,14 @@ Currently loaded stimulus: <span id="audio-stimuli-from-listening-test-span" sty
 ### Gesture-only evaluation (no audio)
 
 <video id="gesture-only-video" class="video-js" controls width="640" height="360">
-    <source id="gesture-only-video-source" src="stimuli/gesture-only/MAT_50_C4_3_eval_0092.mp4" type='video/mp4' />
+    <source id="gesture-only-video-source" src="stimuli/gesture-only/MAGI-FT_1.mp4" type='video/mp4' />
 </video>
 
-Currently loaded: <span id="playing-gesture-only" style="font-weight: bold;" > MA-50 1</span>
+Currently loaded: <span id="playing-gesture-only" style="font-weight: bold;" > MAGI-FT 1</span>
 
 <blockquote style="height: 100px">
   <p id="gesture-only-transcription">
-      I mean it it's not that I'm against it it's just that I just don't have the time and I just sometimes I'm not bothered and that sort of stuff.
+      Trying to see if if we can go back to the olden ways of just talking to people and actually engaging and communicating and seeing if can relationships form with just.
   </p>
 </blockquote>
 
