@@ -579,7 +579,7 @@ Currently loaded: <span id="playing-speech-and-gesture-span" style="font-weight:
 Currently loaded: <span id="playing-pitch-only" style="font-weight: bold;" > Factor: 0 Video 1</span>
 
 <blockquote style="height: 100px">
-  <p id="gesture-only-transcription">
+  <p id="pitch-only-transcription">
       I mean it it's not that I'm against it it's just that I just don't have the time and I just sometimes I'm not bothered and that sort of stuff.
   </p>
 </blockquote>
