@@ -567,3 +567,118 @@ Currently loaded: <span id="playing-speech-and-gesture-span" style="font-weight:
   </tr>
 </tbody>
 </table>
+
+
+
+<video id="pitch-only-video" class="video-js" controls width="640" height="360">
+    <source id="pitch-only-video-source" src="stimuli/pitch/zero_1.mp4" type='video/mp4' />
+</video>
+
+(Videos generated using the same seed)
+
+Currently loaded: <span id="playing-pitch-only" style="font-weight: bold;" > Factor: 0 Video 1</span>
+
+<blockquote style="height: 100px">
+  <p id="gesture-only-transcription">
+      I mean it it's not that I'm against it it's just that I just don't have the time and I just sometimes I'm not bothered and that sort of stuff.
+  </p>
+</blockquote>
+
+<p style="height: 10px">
+    <span style="color: #ee4444; font-weight: bold" id="sm-50-trigger"> </span> 
+</p>
+
+<script>
+
+ transcript_pitch = {
+    "1": "I mean it it's not that I'm against it it's just that I just don't have the time and I just sometimes I'm not bothered and that sort of stuff.",
+    "2": "Like every, I think most people even people who never go to mass ever will go to mass on Christmas Eve or Christmas Day. So like what we used to do is we used to go to mass on Christmas Eve which was lovely it's such a nice ceremony because it's so like it's obviously 12 o'clock at night.",
+    "3": "But I remember once my parents were just downstairs in the kitchen and this is when mobile phones just began coming out. So, like my oldest brother and my oldest sister had a mobile phone each I'm pretty sure.",
+    "4": "Growing up and even today I used to get in a lot of trouble. I used to mess quite a bit when I was younger because again I was like the class Clown and I like to impress people through messing, such."
+ }
+ 
+
+  pitch_only_video = document.getElementById('pitch-only-video')
+  pitch_only_video_source = document.getElementById('pitch-only-video-source')
+  pitch_only_span_text =  document.getElementById('playing-pitch-only')
+  pitch_only_transcript = document.getElementById('pitch-only-transcription')
+
+  trigger_span = document.getElementById('sm-50-trigger')
+
+  function play_pitch_video(filename, text){
+      id = text[text.length - 1];
+
+      pitch_only_video.pause();
+      pitch_only_video_source.src = filename;
+      pitch_only_span_text.innerHTML = text;
+      pitch_only_transcript.innerHTML = transcript_pitch[id];
+      pitch_only_video.load();
+      pitch_only_video.play();
+
+  }
+</script>
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-0pky">Text prompt #</th>
+      <th class="tg-0pky" colspan="3">Pitch Factor</th>
+    </tr>
+    <tr>
+      <th class="tg-0pky"></th>
+      <th class="tg-0pky">-1</th>
+      <th class="tg-0pky">0</th>
+      <th class="tg-0pky">+1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+            <td>
+          <img src="images/play_button_black.png" height=40 style="cursor: pointer;" onclick="play_pitch_video('stimuli/pitch/minus_1.mp4', 'Factor: -1 Video 1')"/>
+      </td>
+      <td>
+          <img src="images/play_button_black.png" height=40 style="cursor: pointer;" onclick="play_pitch_video('stimuli/pitch/zero_1.mp4', 'Factor: 0 Video 1')"/>
+      </td>
+      <td>
+          <img src="images/play_button_black.png" height=40 style="cursor: pointer;" onclick="play_pitch_video('stimuli/pitch/one_1.mp4', 'Factor: 1 Video 1')"/>
+      </td>
+    </tr>
+    <tr>
+      <td>2</td>
+            <td>
+          <img src="images/play_button_black.png" height=40 style="cursor: pointer;" onclick="play_pitch_video('stimuli/pitch/minus_2.mp4', 'Factor: -1 Video 2')"/>
+      </td>
+      <td>
+          <img src="images/play_button_black.png" height=40 style="cursor: pointer;" onclick="play_pitch_video('stimuli/pitch/zero_2.mp4', 'Factor: 0 Video 2')"/>
+      </td>
+      <td>
+          <img src="images/play_button_black.png" height=40 style="cursor: pointer;" onclick="play_pitch_video('stimuli/pitch/one_2.mp4', 'Factor: 1 Video 2')"/>
+      </td>
+    </tr>
+    <tr>
+      <td>3</td>
+            <td>
+          <img src="images/play_button_black.png" height=40 style="cursor: pointer;" onclick="play_pitch_video('stimuli/pitch/minus_3.mp4', 'Factor: -1 Video 3')"/>
+      </td>
+      <td>
+          <img src="images/play_button_black.png" height=40 style="cursor: pointer;" onclick="play_pitch_video('stimuli/pitch/zero_3.mp4', 'Factor: 0 Video 3')"/>
+      </td>
+      <td>
+          <img src="images/play_button_black.png" height=40 style="cursor: pointer;" onclick="play_pitch_video('stimuli/pitch/one_3.mp4', 'Factor: 1 Video 3')"/>
+      </td>
+    </tr>
+    <tr>
+      <td>4</td>
+            <td>
+          <img src="images/play_button_black.png" height=40 style="cursor: pointer;" onclick="play_pitch_video('stimuli/pitch/minus_4.mp4', 'Factor: -1 Video 4')"/>
+      </td>
+      <td>
+          <img src="images/play_button_black.png" height=40 style="cursor: pointer;" onclick="play_pitch_video('stimuli/pitch/zero_4.mp4', 'Factor: 0 Video 4')"/>
+      </td>
+      <td>
+          <img src="images/play_button_black.png" height=40 style="cursor: pointer;" onclick="play_pitch_video('stimuli/pitch/one_4.mp4', 'Factor: 1 Video 4')"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
